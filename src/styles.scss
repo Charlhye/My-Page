@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import "variables";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Berkshire+Swash|Calligraffitti|Give+You+Glory');
+
+a{
+     color: #cc5a71;
+}
+.sectionLabel{
+     font-family: 'Give You Glory', cursive;
+     font-size: 350%;
+}
+
+.normalLabel {
+     font-family: 'Calligraffitti', cursive;
+     color: #253031;
+}
+.titleLabel {
+     font-family: 'Berkshire Swash', cursive;
+     color: #253031;
+}

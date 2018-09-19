@@ -1,0 +1,36 @@
+{
+     "headers":[
+          "About me",
+          "Portfolio"
+     ],
+     "welcome": "¡Bienvenido a mi página, soy Carlos Balcazar",
+     "about me":{
+          "header": "Soy un estudiante de tecnologías computacionales del Tecnológico de Monterrey en la Ciudad de México",
+          "movies":{
+               "header":"Lo que veo",
+               "text": "Me gustan todas las películas de superheroes y las películas de acción, como Misión Imposible, y de aventura, como Tomb Raider o Indiana Jones"
+          },
+          "music":{
+               "header":"Lo que escucho",
+               "text": "Me gusta todo el tipo de Rock desde Glam hasta Nu-metal. Mi banda favorita es Linkin Park; sin embargo, me gusta todo tipo de música, hasta los corridos y la banda. De hecho, un amigo dice que soy una rockola andante."
+          },
+          "clothes":{
+               "header":"Lo que uso",
+               "text": "Me gusta la ropa comoda de telas suaves y con estampados de cosas cool. Aunque también uso ropa semi-formal a veces."
+          },
+          "food":{
+               "header":"Lo que como",
+               "text": "Soy, desde hace un año, vegetariano y no como ningún animal para no asesinar por conveniencia."
+          }
+     },
+     "portfolio":{
+          "tags":[
+               "Videojuegos",
+               "Películas",
+               "Música",
+               "Fútbol",
+               "Beisbol",
+               "Pizza"
+          ]
+     }
+}
