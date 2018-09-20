@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import * as data  from "../../assets/about-me.json";
 
 @Component({
   selector: 'app-music',
@@ -13,4 +13,5 @@ export class MusicComponent implements OnInit {
   ngOnInit() {
   }
 
+  music = (<any>data).aboutme.music;
 }

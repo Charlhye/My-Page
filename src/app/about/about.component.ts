@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import * as data  from "../../assets/about-me.json";
 
 @Component({
   selector: 'app-about',
@@ -12,5 +12,5 @@ export class AboutComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  headtext = (<any>data).aboutme.header;
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import * as data  from "../../assets/about-me.json";
 
 @Component({
   selector: 'app-movies',
@@ -12,5 +12,5 @@ export class MoviesComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  movies = (<any>data).aboutme.movies
 }
