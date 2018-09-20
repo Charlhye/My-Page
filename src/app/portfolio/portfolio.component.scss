@@ -1,0 +1,31 @@
+.container-fluid{
+     background-color: #bfd7ea;
+     text-align: center;
+     height: 92vh;
+}
+.tag{
+     padding-bottom: 10px;
+     background-image: url('../../assets/imgs/tag.png');
+     background-repeat: no-repeat;
+     background-size: 50% 5em;
+     background-position: center;
+}
+
+.tag{
+     text-align: center;
+     p{
+          padding-top: 10%;
+     }
+
+}
+.big{
+     font-size: 1.5em;
+}
+.logo{
+     width: 15em;
+}
+@media screen and (max-width: 996px) {
+     .container-fluid{
+          height: auto;
+     }
+}

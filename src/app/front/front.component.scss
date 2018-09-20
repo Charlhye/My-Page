@@ -17,7 +17,16 @@
 }
 #front-view{
      background-color: #008080;
-     height: 91vh;
+     height: 92vh;
      top: 0;
      bottom: 0;
+}
+@media screen and (max-width: 768px) {
+     #front-view{
+          height: 77.5vh;
+     }
+     .related-logo {
+          height: auto;
+          width: 30%;
+     }
 }

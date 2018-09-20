@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import * as data  from "../../assets/about-me.json";
 
 @Component({
   selector: 'app-portfolio',
@@ -12,5 +12,7 @@ export class PortfolioComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  tags = (<any>data).portfolio.tags;
+  git = (<any>data).portfolio.footer.git;
+  linked = (<any>data).portfolio.footer.linked;
 }

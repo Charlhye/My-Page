@@ -31,6 +31,17 @@
                "Fútbol",
                "Beisbol",
                "Pizza"
-          ]
+          ],
+          "footer":{
+               "git":{
+                    "text":"Puedes encontrar mi trabajo en:",
+                    "liga":"http://www.github.com/Charlhye"
+               },
+               "linked":{
+                    "text":"Puedes encontrar mi perfil en:",
+                    "liga":"https://www.linkedin.com/in/charlhye/"
+               }
+
+          }
      }
 }

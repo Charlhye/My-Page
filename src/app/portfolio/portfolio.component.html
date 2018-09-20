@@ -1,3 +1,33 @@
-<p>
-  portfolio works!
-</p>
+<div class="container-fluid">
+     <br/>
+     <div class="row justify-content-center">
+          <p class="sectionLabel">PORTFOLIO</p>
+     </div>
+     <div class="big row justify-content-center">
+          <p class="normalLabel">---xxx---</p>
+     </div>
+     <div class="big row justify-content-center">
+          <div class="col-2">
+               <p class="normalLabel">Mis cosas favoritas:</p>
+          </div>
+     </div>
+     <div class="row align-items-center justify-content-center" >
+          <div class="col-md-2 col-sm-4 col-6 tag align-items-center justify-content-center" *ngFor="let tag of tags; let j = index">
+               <p class="normalLabel">{{tag}}</p>
+          </div>
+     </div>
+     <div class="row align-items-center justify-content-center" >
+          <div class="big col-12 align-items-center justify-content-center">
+               <p class="normalLabel">{{git.text}}</p>
+          </div>
+          <div class="col-12 align-items-center justify-content-center">
+               <a href="{{git.liga}}" target="_blank" class="normalLabel"> <img class="logo" src="../../assets/imgs/github.png" alt="Github Logo"> </a>
+          </div>
+          <div class="big col-12 align-items-center justify-content-center">
+               <p class="normalLabel">{{linked.text}}</p>
+          </div>
+          <div class="col-12 align-items-center justify-content-center">
+               <a href="{{linked.liga}}" target="_blank" class="normalLabel"><img class="logo" src="../../assets/imgs/linkedin.png" alt="LinkedIn Logo"></a>
+          </div>
+     </div>
+</div>

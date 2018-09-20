@@ -10,8 +10,6 @@ import { MoviesComponent } from './movies/movies.component';
 import { MusicComponent } from './music/music.component';
 import { ClothesComponent } from './clothes/clothes.component';
 import { FoodComponent } from './food/food.component';
-import * from jquery;
-
 
 @NgModule({
   declarations: [

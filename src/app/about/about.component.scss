@@ -13,5 +13,11 @@ div{
 .whole{
      background-color: #f45b69;
      padding-bottom:10px;
-     height: 88.5vh;
+     height: 92vh;
+     width: 100vw;;
+}
+@media screen and (max-width: 996px) {
+     .whole{
+          height: auto;
+     }
 }
